@@ -92,7 +92,7 @@ const artistasAPIController = {
     },
     destroy: async (req, res) => {
         //return res.send('Puedes eliminar un artista a nuestra base de datos. 
-        //Para porder utilizar esta API, debes ejecutar la ruta /artistas/delete/id desde la plataforma POSTMAN');
+        //Para porder utilizar esta API, debes ejecutar la ruta http://localhost:3000/api/artistas/delete/id desde la plataforma POSTMAN');
         try {
             const id = parseInt(req.params.id);
             if (!Number.isInteger(id)) {
