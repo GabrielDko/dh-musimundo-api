@@ -1,1 +1,1 @@
-![image http 200]('./public/img/200.jpg')
+![image desc](./public//img/200.jpg)
