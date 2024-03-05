@@ -79,12 +79,12 @@ const artistasAPIController = {
                         const updatedArtist = await db.Artista.findByPk(id);
                         return res.status(200).json({
                             updatedArtist,
-                            updated: 'ok'
+                            updated: 'ok',
+                            url: `http://localhost:3000/api/artistas/update/${id}`
                         })
                     }
                 }
-            }
-            
+            } 
         } catch (error) {
             return res.status(400).send(error.message)
         }

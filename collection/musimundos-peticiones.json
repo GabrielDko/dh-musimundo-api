@@ -1,0 +1,375 @@
+{
+    "__export_date": "2024-03-05T03:09:59.892Z",
+    "__export_format": 4,
+    "__export_source": "insomnia.desktop.app:v8.6.1",
+    "_type": "export",
+    "resources": [
+        {
+            "_id": "req_b7a81f886b1d4b7b82f68e403dca4206",
+            "_type": "request",
+            "authentication": {},
+            "body": {},
+            "created": 1709452270249,
+            "description": "",
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/8.6.1"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1709452270249,
+            "method": "GET",
+            "modified": 1709531649713,
+            "name": "All media",
+            "parameters": [],
+            "parentId": "fld_1c794adc4de743f080a12c0cdecb0ca1",
+            "pathParameters": [],
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "http://localhost:3000/api/medios"
+        },
+        {
+            "_id": "fld_1c794adc4de743f080a12c0cdecb0ca1",
+            "_type": "request_group",
+            "created": 1709452267104,
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1709452267104,
+            "modified": 1709452267104,
+            "name": "Media",
+            "parentId": "wrk_68db46eeaa7d40c5a3b605a5fb56d7af"
+        },
+        {
+            "_id": "wrk_68db46eeaa7d40c5a3b605a5fb56d7af",
+            "_type": "workspace",
+            "created": 1709448362931,
+            "description": "",
+            "modified": 1709448362931,
+            "name": "musimundo_db",
+            "parentId": null,
+            "scope": "collection"
+        },
+        {
+            "_id": "req_d33734ecd4ea4934b073e98693f20932",
+            "_type": "request",
+            "authentication": {},
+            "body": {},
+            "created": 1709451739010,
+            "description": "",
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/8.6.1"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1709451739010,
+            "method": "GET",
+            "modified": 1709451907409,
+            "name": "All genres",
+            "parameters": [],
+            "parentId": "fld_833c541b95534b508ec43d041d0faa59",
+            "pathParameters": [],
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "http://localhost:3000/api/generos"
+        },
+        {
+            "_id": "fld_833c541b95534b508ec43d041d0faa59",
+            "_type": "request_group",
+            "created": 1709451736194,
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1709451736194,
+            "modified": 1709451736194,
+            "name": "Genres",
+            "parentId": "wrk_68db46eeaa7d40c5a3b605a5fb56d7af"
+        },
+        {
+            "_id": "req_b7c74e322d2c44a7ba6e41c5af7c6b03",
+            "_type": "request",
+            "authentication": {},
+            "body": {},
+            "created": 1709451686409,
+            "description": "",
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/8.6.1"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1709451686409,
+            "method": "GET",
+            "modified": 1709452077597,
+            "name": "All songs",
+            "parameters": [],
+            "parentId": "fld_35c6ad39e19e4f4bb72ccec0f1a7ea69",
+            "pathParameters": [],
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "http://localhost:3000/api/canciones"
+        },
+        {
+            "_id": "fld_35c6ad39e19e4f4bb72ccec0f1a7ea69",
+            "_type": "request_group",
+            "created": 1709451683362,
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1709451683363,
+            "modified": 1709451683362,
+            "name": "Songs",
+            "parentId": "wrk_68db46eeaa7d40c5a3b605a5fb56d7af"
+        },
+        {
+            "_id": "req_c0b3929111f5400ead4959fa0e37f4b1",
+            "_type": "request",
+            "authentication": {},
+            "body": {},
+            "created": 1709451567518,
+            "description": "",
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/8.6.1"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1709451567518,
+            "method": "GET",
+            "modified": 1709531692320,
+            "name": "Artist albums",
+            "parameters": [],
+            "parentId": "fld_e0df2937586142749b05b4526f7b2d8c",
+            "pathParameters": [],
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "http://localhost:3000/api/albumes/1"
+        },
+        {
+            "_id": "fld_e0df2937586142749b05b4526f7b2d8c",
+            "_type": "request_group",
+            "created": 1709450441440,
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1709450441440,
+            "modified": 1709450441440,
+            "name": "Albums",
+            "parentId": "wrk_68db46eeaa7d40c5a3b605a5fb56d7af"
+        },
+        {
+            "_id": "req_ec170db0d48e46e2843867f2a1a9f323",
+            "_type": "request",
+            "authentication": {},
+            "body": {},
+            "created": 1709450444148,
+            "description": "",
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/8.6.1"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1709450444148,
+            "method": "GET",
+            "modified": 1709450458941,
+            "name": "All albums",
+            "parameters": [],
+            "parentId": "fld_e0df2937586142749b05b4526f7b2d8c",
+            "pathParameters": [],
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "http://localhost:3000/api/albumes"
+        },
+        {
+            "_id": "req_eda0c7722aac4a5ea0ce0e88e14e9404",
+            "_type": "request",
+            "authentication": {},
+            "body": {},
+            "created": 1709536997930,
+            "description": "",
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/8.6.1"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1709536997930,
+            "method": "DELETE",
+            "modified": 1709537253880,
+            "name": "Delete artist",
+            "parameters": [],
+            "parentId": "fld_04215f9468224f3aa6fa53e0eed388be",
+            "pathParameters": [],
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "http://localhost:3000/api/artistas/delete/100"
+        },
+        {
+            "_id": "fld_04215f9468224f3aa6fa53e0eed388be",
+            "_type": "request_group",
+            "created": 1709450102501,
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1709450102501,
+            "modified": 1709450102501,
+            "name": "Artists",
+            "parentId": "wrk_68db46eeaa7d40c5a3b605a5fb56d7af"
+        },
+        {
+            "_id": "req_60ebd8fb622343bf9b17b3a3eb739b96",
+            "_type": "request",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"nombre\": \"Gorillaz\"\n}"
+            },
+            "created": 1709535803551,
+            "description": "",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/8.6.1"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1709535803551,
+            "method": "PUT",
+            "modified": 1709536530152,
+            "name": "Update artist",
+            "parameters": [],
+            "parentId": "fld_04215f9468224f3aa6fa53e0eed388be",
+            "pathParameters": [],
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "http://localhost:3000/api/artistas/update/276"
+        },
+        {
+            "_id": "req_3ecb065476a742b092f9cd0a8cf0b1f0",
+            "_type": "request",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"nombre\": \"Gorillaz\"\n}"
+            },
+            "created": 1709533522532,
+            "description": "",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/8.6.1"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1709533522532,
+            "method": "POST",
+            "modified": 1709535837816,
+            "name": "Add artist",
+            "parameters": [],
+            "parentId": "fld_04215f9468224f3aa6fa53e0eed388be",
+            "pathParameters": [],
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "http://localhost:3000/api/artistas/create"
+        },
+        {
+            "_id": "req_0c3473b76aa847b89da5af234a85ed04",
+            "_type": "request",
+            "authentication": {},
+            "body": {},
+            "created": 1709450106406,
+            "description": "",
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/8.6.1"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1709450106406,
+            "method": "GET",
+            "modified": 1709450164587,
+            "name": "All artists",
+            "parameters": [],
+            "parentId": "fld_04215f9468224f3aa6fa53e0eed388be",
+            "pathParameters": [],
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "http://localhost:3000/api/artistas"
+        },
+        {
+            "_id": "env_1f782070a5575ee4c0fe04b6a9b350f69efe81ff",
+            "_type": "environment",
+            "color": null,
+            "created": 1709448362938,
+            "data": {},
+            "dataPropertyOrder": null,
+            "isPrivate": false,
+            "metaSortKey": 1709448362938,
+            "modified": 1709448362938,
+            "name": "Base Environment",
+            "parentId": "wrk_68db46eeaa7d40c5a3b605a5fb56d7af"
+        },
+        {
+            "_id": "jar_1f782070a5575ee4c0fe04b6a9b350f69efe81ff",
+            "_type": "cookie_jar",
+            "cookies": [],
+            "created": 1709448362943,
+            "modified": 1709448362943,
+            "name": "Default Jar",
+            "parentId": "wrk_68db46eeaa7d40c5a3b605a5fb56d7af"
+        }
+    ]
+}
